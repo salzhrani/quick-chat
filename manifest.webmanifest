@@ -1,0 +1,20 @@
+{
+	"short_name": "Quick Chat",
+	"name": "Quick Chat for Whatsapp",
+	"icons": [
+	  {
+		"src": "/images/192.png",
+		"type": "image/png",
+		"sizes": "192x192"
+	  },
+	  {
+		"src": "/images/512.png",
+		"type": "image/png",
+		"sizes": "512x512"
+	  }
+	],
+	"start_url": "/?source=pwa",
+	"background_color": "#3367D6",
+	"display": "standalone",
+	"theme_color": "#3367D6"
+  }
