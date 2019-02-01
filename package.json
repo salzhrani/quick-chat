@@ -13,7 +13,7 @@
     "prettier": "^1.16.3"
   },
   "scripts": {
-    "watch": "parcel index.html",
-    "build": "rm docs/* && parcel build index.html --public-url quick-chat/ --out-dir ./docs"
+    "watch": "parcel index.htm",
+    "build": "rm docs/* && parcel build index.htm --public-url /quick-chat/ --out-dir ./docs"
   }
 }
