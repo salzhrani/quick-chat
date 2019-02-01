@@ -19,5 +19,5 @@ input.addEventListener('keyup', evt => {
 
 btn.onclick = () => {
     const { value } = input;
-    window.location = `https://wa.me/${value.replace(/^05/, '9665')}`;
+    window.location = `https://wa.me/${value.replace(/^05/, '9665').replace(/^\+/, '')}`;
 };
