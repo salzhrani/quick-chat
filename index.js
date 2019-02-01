@@ -4,7 +4,7 @@ const input = document.querySelector('#tel');
 const checkInput = el => {
 	const { value } = el;
     if (
-        (value.indexOf('05') === 0 && value.trim().length === 10) || value.trim().length < 5) {
+        (value.indexOf('05') === 0 && value.trim().length === 10) || value.trim().length > 5) {
 		btn.disabled = '';
     } else {
 		btn.disabled = 'true';
