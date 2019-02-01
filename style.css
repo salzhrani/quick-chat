@@ -25,14 +25,13 @@ p {
 	font-size: 1.4em;
 }
 input {
-	color: red;
 	height: 44px;
     width: 82vw;
     border-radius: 8px;
 	border: 1px solid #00000047;
 	padding: 0 12px;
 	box-sizing: border-box;
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 button {
 	margin-bottom: auto;
@@ -42,7 +41,7 @@ button {
 	background-image: linear-gradient(to bottom, #009688, #006F65);
 	margin-top: 12px;
 	color: #fff;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	transition: color ease 0.28s, background-image ease 0.28s
 }
 button:disabled {
